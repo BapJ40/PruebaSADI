@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CU</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="marca">CARNET UNIVERSO</h1>
+        <h1 class="titulo-header">SADI</h1>
+
+        <div class="opciones">
+                <h1 class="titulo-fiiltro">Filtro</h1>
+            <select title="filtro" name="filtro" id="filtro">
+                <option value="todos" selected>Todos</option>
+                <option value="activos">Activos</option>
+                <option value="inactivos">Inactivos</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="carnets">
+            <!-- Se agrega dinamicamente -->
+            
+        </div>
+
+        <div class="qr">
+            
+        </div>
+    </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script type="module" src="./js/script.js"></script>
+<script type="module" src="./js/carnet.js"></script>
+</body>
+</html>
