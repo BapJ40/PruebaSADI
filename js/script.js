@@ -7,7 +7,7 @@ carnets.forEach(carnets => {
         <div class="carnet ${carnets.estado}">
                     <div class="carnet-img">
                            <div class="galeria">
-                                <a href="${carnets.img}" data-fancybox="gallery" data-caption="Este empleado esta: ${carnets.estado}">
+                                <a href="${carnets.img}" data-fancybox="carnet" data-caption="Este empleado esta: ${carnets.estado}">
                                     <img src="${carnets.img}" alt="carnet">
                                 </a>
                             </div>
