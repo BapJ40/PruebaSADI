@@ -56,4 +56,4 @@ filtro.addEventListener("change", () => {
 
 const qr = document.querySelector(".qr");
 
-new QRCode(qr, "https://www.google.com");
+new QRCode(qr, "https://sadicu.netlify.app/#carnet-1");
